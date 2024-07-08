@@ -37,20 +37,19 @@ aside {
     width: 8%;
 }
 
+.stats {
+    width: 100%;
+}
 /*
 RESPONSIVE
 */
-@media screen and (min-width: 576px) {
+@media screen and () {
 
     
 }
 
-@media screen and (min-width: 576px) {
+@media screen and () {
     
     
 }
 
-@media screen and (min-width: 992px) {
-    
-    
-}
