@@ -28,3 +28,25 @@ main > aside {
 main > section {
     width: calc(100% - var(--aside-width));
 }
+
+aside {
+    background-color: #11273E;
+}
+
+/*
+RESPONSIVE
+*/
+@media screen and (min-width: 576px) {
+
+    
+}
+
+@media screen and (min-width: 576px) {
+    
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+    
+}
