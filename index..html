@@ -29,12 +29,12 @@
         </div>
     </header>
 
-    <main class="bg-info">
+    <main class="bg-info d-flex">
 
-        <div class="container-fluid h-100">
-            <div class="row h-100">
+        <div class="container-fluid h-100 px-0">
+            <div class="row h-100 g-0">
                 <div class="col-auto bg-dark">
-                    <aside class="text-white position relative h-100 d-flex flex-column bg-dark">
+                    <aside class="text-white position-relative h-100 p-3 d-flex flex-column justify-content-between">
                         <ul>
                             <li>
                                 <a href="#">
@@ -62,14 +62,38 @@
                     </aside>
                 </div>
 
-                <div class="col bg-secondary">
-                    <section>
+                <div class="col bg-secondary h-100">
+                    <section class="h-100 overflow-y-auto">
                         <header class="bg-danger">
-                            Header del main
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-12 col-sm-4 col-lg-2">
+                                        Left
+                                    </div>
+
+                                    <div class="col-12 col-sm-4 col-lg-6">
+                                        Center
+                                    </div>
+
+                                    <div class="col-12 col-sm-4 col-lg-4">
+                                        Right
+                                    </div>
+                                </div>
+                            </div>
                         </header>
 
                         <section class="bg-info">
-                            contenuto principale
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        Left
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        Right
+                                    </div>
+                                </div>
+                            </div>
                         </section>
                     </section>
                 </div>
